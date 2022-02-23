@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 import "./App.css";
-import BrightID10KNftMint from "./components/react-brightid-10k-nft-mint/src";
-// import BrightID10KNftMint from "react-brightid-10k-nft-mint";
+import BrightIDNftMint from "./components/react-brightid-nft-mint/src";
+// import BrightIDNftMint from "react-brightid-nft-mint";
 
 function App() {
     return (
@@ -14,14 +14,14 @@ function App() {
                 />
             </header>
             <main>
-                <div className="App-brightid-10k-nft-mint">
-                    <BrightID10KNftMint
+                <div className="App-brightid-nft-mint">
+                    <BrightIDNftMint
                         context="snapshot"
                         contractAddr="0x81591DC4997A76A870c13D383F8491B288E09344"
                         // contractAddr="0x62b008b2593a175BB33FFFbe8a11a92939B5A67C"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
                         walletConnectInfuraId="60a7b2c16321439a917c9e74a994f7df"
-                        relayVerificationURL="https://idchain.songadao.org/brightid-10k-nft-mint-relay/register"
+                        relayVerificationURL="https://idchain.songadao.org/brightid-nft-mint-relay/register"
                         // relayVerificationURL="http://localhost:5001/register"
 
                         // appStoreAndroid="https://play.google.com/store/apps/details?id=org.brightid"

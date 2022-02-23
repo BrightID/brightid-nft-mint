@@ -16,7 +16,7 @@ This means is that we need a way to determine that no person can ever cast more 
 <section>
 There are a number of steps in the registration process. We've created a simple registration dapp for you to use to complete each step in the process.
 
-It can be accessed at <a href="https://idchain.songadao.org/brightid-10k-nft-mint/" target="_blank">Song a Day Registration App</a>
+It can be accessed at <a href="https://idchain.songadao.org/brightid-nft-mint/" target="_blank">Song a Day Registration App</a>
 
 The rest of this documentation explains what the steps you will be doing in the registration app are for.
 
