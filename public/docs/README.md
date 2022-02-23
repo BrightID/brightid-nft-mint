@@ -102,7 +102,7 @@ On this page, fill in the fields with the following information:
 
 **Network Name:** IDChain
 
-**RPC URL:** https://idchain.one/rpc/
+**RPC URL:** https://rpc.gnosischain.com/
 
 **Chain ID:** 74
 
