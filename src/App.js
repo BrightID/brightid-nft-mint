@@ -17,19 +17,17 @@ function App() {
                 <div className="App-brightid-nft-mint">
                     <BrightIDNftMint
                         context="snapshot"
-                        contractAddr="0x81591DC4997A76A870c13D383F8491B288E09344"
-                        // contractAddr="0x62b008b2593a175BB33FFFbe8a11a92939B5A67C"
+                        contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
                         walletConnectInfuraId="60a7b2c16321439a917c9e74a994f7df"
-                        relayVerificationURL="https://idchain.songadao.org/brightid-nft-mint-relay/register"
-                        // relayVerificationURL="http://localhost:5001/register"
+                        // relayVerificationURL="https://idchain.songadao.org/brightid-nft-mint-relay/register"
+                        relayVerificationURL="http://localhost:5001/register"
 
                         // appStoreAndroid="https://play.google.com/store/apps/details?id=org.brightid"
                         // appStoreIos="https://apps.apple.com/us/app/brightid/id1428946820"
                         // brightIdMeetUrl="https://meet.brightid.org"
                         // deepLinkPrefix="brightid://link-verification/http:%2f%2fnode.brightid.org"
-                        // registrationChainId="74"
-                        // registrationRpcUrl="https://idchain.one/rpc/"
+                        // registrationRpcUrl="https://rpc.gnosischain.com/"
                         // verificationUrl="https://app.brightid.org/node/v5/verifications"
                     />
                 </div>
