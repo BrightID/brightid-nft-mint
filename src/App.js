@@ -14,7 +14,7 @@ function App() {
                 />
             </header>
             <main>
-                <div className="App-brightid-registration">
+                <div className="App-brightid-10k-nft-mint">
                     <BrightID10KNftMint
                         context="snapshot"
                         contractAddr="0x81591DC4997A76A870c13D383F8491B288E09344"
