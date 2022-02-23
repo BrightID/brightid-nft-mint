@@ -4,15 +4,13 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AppWithoutRelay from "./AppWithoutRelay";
-import AppWithRelay from "./AppWithRelay";
+import App from "./App";
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter basename="/brightid-registration">
+        <BrowserRouter basename="/brightid-10k-nft-mint">
             <Routes>
-                <Route path="/" element={<AppWithRelay />} />
-                <Route path="/without-relay" element={<AppWithoutRelay />} />
+                <Route path="/" element={<App />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
