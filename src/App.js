@@ -41,6 +41,7 @@ function App() {
                 >
                     SongADAO LCA
                 </a>
+                - in collaboration with NFBeez
             </footer>
         </div>
     );
