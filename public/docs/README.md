@@ -16,7 +16,7 @@ This means is that we need a way to determine that no person can ever cast more 
 <section>
 There are a number of steps in the registration process. We've created a simple registration dapp for you to use to complete each step in the process.
 
-It can be accessed at <a href="https://idchain.songadao.org/idchain-registration/" target="_blank">Song a Day Registration App</a>
+It can be accessed at <a href="https://idchain.songadao.org/idchain-registration/" target="_blank">Soulbound Registration App</a>
 
 The rest of this documentation explains what the steps you will be doing in the registration app are for.
 
@@ -132,11 +132,11 @@ As the message on this step says, it should happen automatically as part of the 
 
 ---
 
-## Step 8: Verify with Song a Day on IDChain
+## Step 8: Verify with Soulbound on IDChain
 
 This is the final step, and is what will register you to vote in the DAO. This step will execute a wallet transaction on the IDChain network. Click the "Verify" button to initiate it and then confirm the transaction like you would any other. You will be executing this on the IDChain blockchain with the tokens you obtained in the earlier step. Once the verification transaction confirms the registration dapp will update to reflect your completed verification status.
 
-<img alt="Verify with Song a Day on IDChain" src="img/step8-verify.png" width="320">
+<img alt="Verify with Soulbound on IDChain" src="img/step8-verify.png" width="320">
 
 ---
 
