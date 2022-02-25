@@ -3,7 +3,7 @@ import "./App.css";
 import BrightIDNftMint from "./components/react-brightid-nft-mint/src";
 // import BrightIDNftMint from "react-brightid-nft-mint";
 
-function App() {
+function App({ mode }) {
     return (
         <div className="App">
             <header className="App-header">
@@ -12,6 +12,7 @@ function App() {
             <main>
                 <div className="App-brightid-nft-mint">
                     <BrightIDNftMint
+                        mode={mode}
                         context="soulbound"
                         contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
@@ -25,8 +26,10 @@ function App() {
                         // appStoreIos="https://apps.apple.com/us/app/brightid/id1428946820"
                         // brightIdMeetUrl="https://meet.brightid.org"
                         // deepLinkPrefix="brightid://link-verification/http:%2f%2fnode.brightid.org"
+                        // mintTokenFaucetUrl = "https://www.gimlu.com/faucet"
                         // mintChainId = "100"
                         // mintChainName = "Gnosis Chain"
+                        // mintTokenName = "xDai"
                         // mintBlockExplorerUrl = "https://blockscout.com/xdai/mainnet"
                         // mintBlockExplorerTxnPath = "/tx/"
                         // mintRpcUrl="https://rpc.gnosischain.com/"

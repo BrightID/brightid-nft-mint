@@ -10,7 +10,9 @@ ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter basename="/brightid-nft-mint-public">
             <Routes>
-                <Route path="/" element={<App />} />
+                <Route path="/" element={<App mode="gas" />} />
+                <Route path="/gas" element={<App mode="gas" />} />
+                <Route path="/gasless" element={<App mode="gasless" />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
