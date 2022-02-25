@@ -30,6 +30,7 @@ function App({ mode }) {
                         // mintChainId = "100"
                         // mintChainName = "Gnosis Chain"
                         // mintTokenName = "xDai"
+                        // mintTokenDecimal = "18"
                         // mintBlockExplorerUrl = "https://blockscout.com/xdai/mainnet"
                         // mintBlockExplorerTxnPath = "/tx/"
                         // mintRpcUrl="https://rpc.gnosischain.com/"
