@@ -16,8 +16,8 @@ function App() {
                         contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
                         walletConnectInfuraId="60a7b2c16321439a917c9e74a994f7df"
-                        // relayBindURL="https://idchain.songadao.org/brightid-nft-mint-relay/bind"
-                        // relayMintURL="https://idchain.songadao.org/brightid-nft-mint-relay/mint"
+                        // relayBindURL="https://example.com/brightid-nft-mint-relay/bind"
+                        // relayMintURL="https://example.com/brightid-nft-mint-relay/mint"
                         relayBindURL="http://localhost:5001/brightid-nft-mint-relay/bind"
                         relayMintURL="http://localhost:5001/brightid-nft-mint-relay/mint"
 
