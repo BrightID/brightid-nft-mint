@@ -35,7 +35,7 @@ function App() {
                 </div>
             </main>
             <footer className="App-footer">
-                &copy; 2022 - in collaboration with NFBeez
+                &copy; 2022 BrightID - in collaboration with NFBeez
             </footer>
         </div>
     );
