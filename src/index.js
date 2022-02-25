@@ -8,7 +8,7 @@ import App from "./App";
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter basename="/brightid-nft-mint">
+        <BrowserRouter basename="/brightid-nft-mint-public">
             <Routes>
                 <Route path="/" element={<App />} />
             </Routes>
