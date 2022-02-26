@@ -3,7 +3,7 @@ import "./App.css";
 import BrightIDNftMint from "./components/react-brightid-nft-mint/src";
 // import BrightIDNftMint from "react-brightid-nft-mint";
 
-function App({ mode }) {
+function App({ initialMode }) {
     return (
         <div className="App">
             <header className="App-header">
@@ -12,7 +12,7 @@ function App({ mode }) {
             <main>
                 <div className="App-brightid-nft-mint">
                     <BrightIDNftMint
-                        mode={mode}
+                        initialMode={initialMode}
                         context="soulbound"
                         contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
