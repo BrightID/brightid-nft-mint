@@ -17,8 +17,8 @@ function App({ initialMode }) {
                         contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
                         walletConnectInfuraId="60a7b2c16321439a917c9e74a994f7df"
-                        relayBindURL="https://brightid-nft-mint-relay.alanparty.repl.co/bind"
-                        relayMintURL="https://brightid-nft-mint-relay.alanparty.repl.co/mint"
+                        relayBindURL="https://brightid-nft-mint-relay.herokuapp.com/bind"
+                        relayMintURL="https://brightid-nft-mint-relay.herokuapp.com/mint"
                         // relayBindURL="http://localhost:5001/brightid-nft-mint-relay/bind"
                         // relayMintURL="http://localhost:5001/brightid-nft-mint-relay/mint"
 
