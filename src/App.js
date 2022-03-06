@@ -21,6 +21,7 @@ function App() {
                         relayMintURL="https://brightid-nft-mint-relay.herokuapp.com/mint"
                         // relayBindURL="http://localhost:5001/brightid-nft-mint-relay/bind"
                         // relayMintURL="http://localhost:5001/brightid-nft-mint-relay/mint"
+                        maxSupply="10000"
 
                         // appStoreAndroid="https://play.google.com/store/apps/details?id=org.brightid"
                         // appStoreIos="https://apps.apple.com/us/app/brightid/id1428946820"
