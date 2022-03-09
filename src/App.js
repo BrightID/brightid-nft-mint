@@ -13,8 +13,9 @@ function App() {
                 <div className="App-brightid-nft-mint">
                     <BrightIDNftMint
                         context="soulbound"
+                        contractAddr="0x8884C28d13648128a7191Cb3C9Af7A9e14fCbF71"
                         // contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
-                        contractAddr="0x5bEeE3b35Df7AD8648E80EB52c47A481de086491"
+                        // contractAddr="0x5bEeE3b35Df7AD8648E80EB52c47A481de086491"
                         mainnetRpcUrl="https://mainnet.infura.io/v3/60a7b2c16321439a917c9e74a994f7df"
                         walletConnectInfuraId="60a7b2c16321439a917c9e74a994f7df"
                         relayBindURL="https://brightid-nft-mint-relay.herokuapp.com/bind"
