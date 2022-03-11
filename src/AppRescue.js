@@ -1,9 +1,9 @@
 import logo from "./logo.png";
 import "./App.css";
-import { BrightIDNftMint } from "./components/react-brightid-nft-mint/src";
-// import { BrightIDNftMint } from "react-brightid-nft-mint";
+import { BrightIDNftRescue } from "./components/react-brightid-nft-mint/src";
+// import { BrightIDNftRescue } from "react-brightid-nft-mint";
 
-function App() {
+function AppRescue() {
     return (
         <div className="App">
             <header className="App-header">
@@ -11,7 +11,7 @@ function App() {
             </header>
             <main>
                 <div className="App-brightid-nft-mint">
-                    <BrightIDNftMint
+                    <BrightIDNftRescue
                         context="soulbound"
                         contractAddr="0x8884C28d13648128a7191Cb3C9Af7A9e14fCbF71"
                         // contractAddr="0x3F0FC15787511CCdc0bcc01950FCD13FFb4Ae95a"
@@ -47,4 +47,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppRescue;

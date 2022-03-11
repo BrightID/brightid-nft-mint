@@ -5,12 +5,14 @@ import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
+import AppRescue from "./AppRescue";
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />} />
+                <Route path="/rescue" element={<AppRescue />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
