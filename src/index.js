@@ -4,15 +4,17 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
+import AppMint from "./AppMint";
 import AppRescue from "./AppRescue";
 
 ReactDOM.render(
     <React.StrictMode>
         <HashRouter>
             <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/rescue" element={<AppRescue />} />
+                {/* <Route path="/" element={<AppMint />} /> */}
+                <Route path="/" element={<AppRescue />} />
+                {/* <Route path="/mint" element={<AppMint />} /> */}
+                {/* <Route path="/rescue" element={<AppRescue />} /> */}
             </Routes>
         </HashRouter>
     </React.StrictMode>,

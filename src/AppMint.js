@@ -3,7 +3,7 @@ import "./App.css";
 import { BrightIDNftMint } from "./components/react-brightid-nft-mint/src";
 // import { BrightIDNftMint } from "react-brightid-nft-mint";
 
-function App() {
+function AppMint() {
     return (
         <div className="App">
             <header className="App-header">
@@ -47,4 +47,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppMint;
