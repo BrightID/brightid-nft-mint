@@ -40,9 +40,7 @@ function AppRescue() {
                     />
                 </div>
             </main>
-            <footer className="App-footer">
-                &copy; 2022 BrightID - in collaboration with NFBeez
-            </footer>
+            <footer className="App-footer">&copy; 2022 BrightID</footer>
         </div>
     );
 }
