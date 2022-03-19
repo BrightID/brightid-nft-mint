@@ -3,16 +3,20 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import AppMint from "./AppMint";
+import AppRescue from "./AppRescue";
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path="/" element={<App />} />
+                {/* <Route path="/" element={<AppMint />} /> */}
+                <Route path="/" element={<AppRescue />} />
+                {/* <Route path="/mint" element={<AppMint />} /> */}
+                {/* <Route path="/rescue" element={<AppRescue />} /> */}
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>,
     document.getElementById("root")
 );
